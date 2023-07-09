@@ -1,0 +1,345 @@
+/*mobile*/
+@media(min-width:320px){
+	.container{
+	width:80%;
+	margin:auto;
+
+}
+
+/* about section */
+	
+	.about-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.about-col{
+	width:100%;
+	
+}
+
+
+.about-row1{ 
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	
+ }
+.about-col1{
+	
+	 width:100%;
+}
+.client-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.client-col{
+	width:50%;
+}
+
+    /* service section */
+	
+	
+	 .service-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.service-col{
+	width:100%;
+}
+.service-col p{
+	font-size:14px;
+}
+
+/* pricing section */
+
+.pricing-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	
+}
+.pricing-col{
+	width:100%;
+}
+
+  /* team section */
+ 
+.team-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap
+}
+	
+.team-col{
+	width:100%;
+}
+
+/* contact section */
+
+.contact-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+
+}
+.contact-col{
+	width:100%;
+}
+
+
+.contact-row2{
+	 display:flex;
+	 width:100%;
+	 flex-wrap:wrap;
+}
+.contact-col2{
+	width:100%;
+}
+
+.form-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.form-col{
+	width:100%;
+}
+  
+
+
+
+
+}
+	 
+	
+	
+
+/* ipad */
+
+@media(min-width:660px){
+	.container{
+	width:80%;
+	margin:auto;
+	}
+	
+	/* about section */
+	.about-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.about-col{
+	width:100%;
+	
+}
+
+.about-row1{ 
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	
+ } 
+ .about-col1{
+	
+	 width:100%;
+}
+
+.client-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.client-col{
+	width:30%;
+}
+
+
+
+      /* service section */
+	  
+	 .service-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+.service-col{
+	width:50%;
+}
+.service-col p{
+	font-size:16px;
+}
+
+		/* pricing section */
+		
+.pricing-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	
+}
+.pricing-col{
+	width:45%;
+}
+
+    /* team section */
+	
+.team-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+	
+.team-col{
+	width:45%;
+}
+
+/* contact section */
+
+.contact-row{
+	display:flex;
+	width:100%;
+
+}
+.contact-col{
+	width:30%;
+}
+
+
+
+.contact-row2{
+	 display:flex;
+	 width:100%;
+}
+.contact-col2{
+	width:50%;
+}
+
+.form-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.form-col{
+	width:50%;
+}
+  
+
+
+
+
+}
+
+/* laptop */
+@media(min-width:960px){
+	.container{
+		width:80%;
+		margin:auto;
+	}
+	
+	/* about section */
+	.about-row{
+	display:flex;
+	width:100%;
+}
+
+.about-col{
+	width:50%;
+	
+}
+
+
+.about-row1{ 
+	display:flex;
+	width:100%;
+	
+ } 
+ .about-col1{
+	
+	 width:30%;
+	
+}
+
+
+.client-row{
+	display:flex;
+	width:100%;
+}
+.client-col{
+	width:15%;
+}
+
+
+
+    /* service section */
+	
+	.service-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+.service-col{
+	width:32%;
+}
+.service-col p{
+	font-size:16px;
+}
+   /* pricing section */
+   
+.pricing-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	
+}
+.pricing-col{
+	width:49%;
+}
+
+
+    /* team section */
+	
+.team-row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+	
+.team-col{
+	width:49%;
+}
+
+/* contact section */
+
+.contact-row{
+	display:flex;
+	width:100%;
+
+}
+.contact-col{
+	width:30%;
+}
+
+.contact-row2{
+	 display:flex;
+	 width:100%;
+}
+.contact-col2{
+	width:50%;
+}
+
+.form-row{
+	display:flex;
+	width:100%;
+}
+.form-col{
+	width:49%;
+}
+  
+
+}
