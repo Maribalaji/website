@@ -55,6 +55,25 @@
 	font-size:14px;
 }
 
+
+		/* portfolio section */
+		
+.port-row{
+	 width:100%;
+	 display:flex;
+	 flex-wrap:wrap;
+	 
+	 margin:auto;
+ }
+	 
+ .port-col{
+			width:100%;
+	
+ }		
+
+
+
+
 /* pricing section */
 
 .pricing-row{
@@ -109,6 +128,18 @@
 .form-col{
 	width:100%;
 }
+
+		/* footer section */
+		
+.footer-row{
+	width:100%;
+	
+	display:flex;
+	flex-wrap:wrap;
+}
+.footer-col{
+	width:100%;
+}	
   
 
 
@@ -175,6 +206,33 @@
 	font-size:16px;
 }
 
+
+		/* portfolio section */
+		
+		
+.port-row{
+	 width:100%;
+	 display:flex;
+	 flex-wrap:wrap;
+	 
+	 margin:auto;
+ }
+	 
+ .port-col{
+			width:100%;
+	
+ }		
+
+
+
+
+
+
+
+
+
+
+
 		/* pricing section */
 		
 .pricing-row{
@@ -184,7 +242,7 @@
 	
 }
 .pricing-col{
-	width:45%;
+	width:30%;
 }
 
     /* team section */
@@ -196,7 +254,7 @@
 }
 	
 .team-col{
-	width:45%;
+	width:30%;
 }
 
 /* contact section */
@@ -228,6 +286,20 @@
 .form-col{
 	width:50%;
 }
+
+
+		/* footer section */
+		
+		
+.footer-row{
+	width:100%;
+	
+	display:flex;
+	flex-wrap:wrap;
+}
+.footer-col{
+	width:100%;
+}	
   
 
 
@@ -289,6 +361,28 @@
 .service-col p{
 	font-size:16px;
 }
+
+		/* portfolio section */
+		
+.port-row{
+	 width:100%;
+	 display:flex;
+	 
+	 margin:auto;
+ }
+	 
+ .port-col{
+			width:30%;
+	
+ }		
+
+
+
+
+
+
+
+
    /* pricing section */
    
 .pricing-row{
@@ -298,7 +392,7 @@
 	
 }
 .pricing-col{
-	width:49%;
+	width:32%;
 }
 
 
@@ -307,11 +401,11 @@
 .team-row{
 	display:flex;
 	width:100%;
-	flex-wrap:wrap;
+
 }
 	
 .team-col{
-	width:49%;
+	width:32%;
 }
 
 /* contact section */
@@ -340,6 +434,55 @@
 .form-col{
 	width:49%;
 }
+
+
+		/* footer section */
+		
+		
+.footer-row{
+	width:100%;
+	
+	display:flex;
+}
+.footer-col{
+	width:24%;
+}
   
 
 }
+
+@media(max-width:960px){ .header label{display:block;
+										color:white;
+										padding-top:15px;}
+						.header{padding:0 10% 5px 10%;
+								position:fixed;}
+						.header .navigation{position:absolute;
+											top:100%;
+											left:0;
+											right:0;
+											background:black;
+											display:none;
+											}
+						.banner-logo{font-size:30px;}					
+											
+						.header .navigation ul li{width:100%;
+												 border-top:1px solid white);
+												 }	
+						.header .navigation ul li a{padding:8px 30px 8px 10%;}
+						.header .navigation ul li ul{position:relative;
+													width:100%;
+													left:0;
+													}
+													
+						.header .navigation ul li ul li{background:black;
+														}
+
+						.header .navigation ul li ul li ul{position:relative;
+															width:100%;
+															left:0;
+															}
+															
+															
+						#toggle:checked~ .navigation{display:block;}									
+						
+ }
